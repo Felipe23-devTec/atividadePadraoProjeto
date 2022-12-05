@@ -18,7 +18,7 @@ public class Snooper {
 				return query.length() > 60;
 			}
 		});
-        //ja no segundo observer sempre que contem friend e não diferencia letras minusculas das maiusculaas
+        //ja no segundo observer sempre que contem afriend e não diferencia letras minusculas das maiusculaas
         
         model.addQueryObserver( new WebSearchModel.QueryObserver() {
             @Override
