@@ -2,7 +2,7 @@ package attividade;
 import java.util.ArrayList;
 import java.util.List;
 public class PhoneModel {
-	
+	//digitos que seram armazenados
 	private List<Integer> digits = new ArrayList<>();
 
     public void addDigit(int newDigit) {
