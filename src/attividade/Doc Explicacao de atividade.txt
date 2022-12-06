@@ -1,7 +1,7 @@
 1)Telefone
 Usando o padrão observer para separar as responsabilidades da 
 classe principal:
--Definir interface para os observadores : PhoneObserver;
+-Definir interface para os observadores : PhoneObserver e phoneSubject;
 -Notificar quando um novo digito for inserido; responsabilidade da classe PhoneSubject para 
 adicionar um observer e notificar quando um número esta sendo digitado;
 -a classe principal deve ter um observado que informa o numero 
